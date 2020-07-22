@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        
+        <title>Quotes</title>
+        <link rel="stylesheet" href="quotes/styles.css">
+        <script type="text/javascript" src="quotes/scripts.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+        
+    </head>
+    
+    
+    
+    <body onload="randPrompt();">
+        
+        
+        <div class="dispDiv" id="dispDiv">
+            
+            <div class="quoteDiv"><p id="quote"></p></div>
+            
+            <div class="details" id="details">
+                
+                <a class="name" id="name" target="_blank" href=""></a>
+                <p id="info"></p>
+                
+            </div>
+            
+            <a id="imgLink" target="_blank" href="">
+                <img src="" class="portrait" id="pic">
+            </a>
+            
+            
+        </div>
+
+
+        <div class="btnDiv" id="btnDiv">
+            <h1 id="prompt" class="prompt">Looking for inspiration?</h1>
+            <button id="qBtn" class="btn" onclick="btnClick();">
+                <p id="btnText">Random Quote</p>
+            </button>
+        </div>
+
+        
+        <div class="banner">
+            <div class="bannerText">Quotey</div>
+        </div>
+        
+        <div class="bottom"></div>
+        
+    </body>
+    
+</html>
